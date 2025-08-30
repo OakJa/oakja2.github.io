@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>เครื่องช่วยฟังอัจฉริยะ — โซลูชันเพื่อการสื่อสาร | Clinical & Consumer</title>
+<meta name="description" content="เครื่องช่วยฟังอัจฉริยะสำหรับผู้มีปัญหาการได้ยิน — ข้อมูลเชิงคลินิก, ข้อกำหนดทางเทคนิค, งานวิจัย และเดโมสำหรับผู้เชี่ยวชาญและผู้ใช้ทั่วไป">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a id="skip-to-content" class="skip-link" href="#main-content" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden">ข้ามไปยังเนื้อหาหลัก</a>
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <div class="brand">
+      <img src="assets/logo.svg" alt="โลโก้เครื่องช่วยฟัง">
+      <div>
+        <h1>เครื่องช่วยฟังอัจฉริยะ</h1>
+        <div class="meta">พัฒนาโดยทีม-6 — มุ่งเน้นความปลอดภัยและผลลัพธ์ทางคลินิก</div>
+      </div>
+    </div>
+    <nav class="nav" aria-label="เมนูเว็บไซต์">
+      <a href="#overview">ภาพรวม</a>
+      <a href="#features">คุณสมบัติ</a>
+      <a href="#evidence">งานวิจัย</a>
+      <a href="#demo">เดโม</a>
+      <a href="#contact">ติดต่อ</a>
+    </nav>
+  </div>
+
+  <div class="container" style="margin-top:12px;display:flex;justify-content:flex-end;gap:10px;align-items:center">
+    <div class="controls" role="region" aria-label="การเข้าถึง">
+      <button id="btn-font-minus" class="btn secondary" aria-label="ลดขนาดตัวอักษร">A-</button>
+      <button id="btn-font-plus" class="btn secondary" aria-label="เพิ่มขนาดตัวอักษร">A+</button>
+      <button id="btn-contrast" class="btn secondary" aria-label="สลับโหมดคอนทราสต์">CONTRAST</button>
+      <div id="font-scale" style="color:#fff;margin-left:8px">100%</div>
+      <div id="contrast-status" style="color:#fff;margin-left:12px">คอนทราสต์สูง: ปิด</div>
+    </div>
+  </div>
+</header>
+
+<main id="main-content" class="container" tabindex="-1" role="main">
+  <section id="overview" class="section hero">
+    <div class="hero-card card" aria-labelledby="overview-title">
+      <h2 id="overview-title">โซลูชันเครื่องช่วยฟังที่ออกแบบเชิงคลินิก</h2>
+      <p class="lead">ออกแบบเพื่อผู้ป่วยและผู้เชี่ยวชาญ — มอบความชัดเจนในการสื่อสาร ลดความเหนื่อยล้าจากการฟัง และรองรับการใช้งานในสภาพแวดล้อมจริง</p>
+      <div class="cta-group" role="group" aria-label="การกระทำหลัก">
+        <a class="btn" href="#demo">ดูเดโม</a>
+        <a class="btn secondary" href="brochure.html" target="_blank" rel="noopener">ดาวน์โหลดโบรชัวร์ (พิมพ์ได้)</a>
+      </div>
+      <p class="meta">เหมาะสำหรับ: คลินิกตรวจการได้ยิน, พยาบาล, ผู้เชี่ยวชาญด้านการฟื้นฟูการได้ยิน และผู้ใช้ทั่วไป</p>
+    </div>
+
+    <aside class="card" style="padding:20px">
+      <h3>สรุปทางเทคนิค</h3>
+      <ul style="margin:0;padding-left:18px;color:var(--muted)">
+        <li>Latency &lt; 120 ms (caption pathway)</li>
+        <li>Battery life: 18–30 ชั่วโมง ขึ้นกับการใช้งาน</li>
+        <li>Bluetooth LE และ AAC codec</li>
+        <li>การปรับแต่งโดยผู้เชี่ยวชาญผ่านแอป</li>
+      </ul>
+    </aside>
+  </section>
+
+  <section id="features" class="section">
+    <h2>คุณสมบัติหลัก</h2>
+    <div class="features" role="list">
+      <article class="feature" role="listitem">
+        <h3>Adaptive Gain</h3>
+        <p class="meta">ปรับระดับเสียงตามสภาพแวดล้อม เพื่อให้สัญญาณเสียงที่ต้องการคงเด่น</p>
+      </article>
+      <article class="feature" role="listitem">
+        <h3>Noise Reduction / Directional Beamforming</h3>
+        <p class="meta">ตัดเสียงรบกวนพร้อมโฟกัสเสียงพูดจากทิศทางที่ต้องการ</p>
+      </article>
+      <article class="feature" role="listitem">
+        <h3>Realtime Captioning</h3>
+        <p class="meta">เส้นทางแสดงคำบรรยายสำหรับการประชุมและการโทร — ลดภาระการฟัง</p>
+      </article>
+      <article class="feature" role="listitem">
+        <h3>Clinical Tuning</h3>
+        <p class="meta">การตั้งค่ารายบุคคลโดยผู้เชี่ยวชาญผ่านซอฟต์แวร์ เพื่อผลลัพธ์เชิงคลินิกที่พิสูจน์ได้</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="evidence" class="section">
+    <h2>งานวิจัยและคำแนะนำทางคลินิก</h2>
+    <div class="card grid-2">
+      <div>
+        <h4>ข้อมูลการทดสอบ</h4>
+        <p>ผลการทดสอบในห้องปฏิบัติการและสภาพแวดล้อมจริงแสดงให้เห็นการลดสัญญาณรบกวนและการเพิ่มคะแนนความเข้าใจจากผู้ใช้ที่มีความผิดปกติการได้ยินชนิดต่าง ๆ</p>
+      </div>
+      <div>
+        <h4>คำแนะนำจากผู้เชี่ยวชาญ</h4>
+        <p>การปรับตั้งค่าแนะนำให้ทำโดยนักโสตนาสิกหรือผู้เชี่ยวชาญด้านการได้ยิน เพื่อให้ได้ประสิทธิภาพสูงสุดและลดความยุ่งยากของผู้ใช้</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="demo" class="section">
+    <h2>เดโมการทำงาน (สำหรับแสดงให้ผู้อื่นดู)</h2>
+    <div class="card demo-grid" role="region" aria-label="เดโมถอดความ">
+      <div>
+        <label for="upload-audio"><strong>อัปโหลดไฟล์เสียง (mp3/wav)</strong></label><br>
+        <input id="upload-audio" type="file" accept="audio/*" aria-describedby="audio-help">
+        <div id="audio-name" class="meta" style="margin-top:8px">ยังไม่ได้เลือกไฟล์</div>
+        <div class="waveform" style="margin-top:12px">ภาพคลื่นเสียง (จำลอง)</div>
+        <div style="margin-top:12px">
+          <button id="simulate-caption" class="btn">Simulate Caption</button>
+          <div id="caption-status" class="meta" style="margin-top:8px">ยังไม่มีการถอดความ</div>
+        </div>
+      </div>
+      <div>
+        <h3>Transcript / Transcript UI</h3>
+        <div id="transcript" class="transcript">ข้อความถอดความจะแสดงที่นี่ — เหมาะสำหรับการสาธิตการประชุมและการรักษา</div>
+        <p style="margin-top:12px;color:var(--muted)">หมายเหตุ: สำหรับการใช้งานจริง ให้เชื่อมต่อ Speech-to-Text API (เช่น Whisper, Google Speech-to-Text) และระบบการจัดการสิทธิ์ข้อมูลผู้ป่วย</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>ติดต่อ และการขอทดลองใช้งานเชิงคลินิก</h2>
+    <div class="card">
+      <form id="contact-form" aria-label="แบบฟอร์มติดต่อ">
+        <div class="form-row">
+          <div class="field"><label for="c-name">ชื่อ-นามสกุล</label><input id="c-name" class="focus-ring" required></div>
+          <div class="field"><label for="c-email">อีเมล</label><input id="c-email" type="email" class="focus-ring" required></div>
+        </div>
+        <div style="margin-top:12px">
+          <label for="c-msg">ข้อความ / ข้อมูลสถาบัน (หากเป็นบุคลากร)</label><br>
+          <textarea id="c-msg" rows="4" class="focus-ring"></textarea>
+        </div>
+        <div style="margin-top:12px;display:flex;gap:12px;align-items:center">
+          <button type="submit" class="btn">ส่งคำขอ</button>
+          <div id="contact-status" class="meta"></div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section id="footer-info" class="section">
+    <div class="card">
+      <h3>การปฏิบัติด้านความปลอดภัยข้อมูล (Privacy)</h3>
+      <p class="meta">ข้อมูลการติดต่อจะถูกใช้เพื่อการตอบกลับและการจัดการนัดหมายเท่านั้น หากต้องการข้อมูลเชิงลึกเกี่ยวกับการจัดเก็บข้อมูล กรุณาติดต่อทีมงาน</p>
+    </div>
+  </section>
+</main>
+
+<footer role="contentinfo" class="container" style="margin-bottom:28px">
+  <div class="card">
+    <p>&copy; 2025 เครื่องช่วยฟังอัจฉริยะ — สำหรับการใช้งานเชิงคลินิกและเชิงบริโภค</p>
+    <p class="meta">ออกแบบโดยทีมนักพัฒนาทีม 6 | สนใจเป็นพาร์ทเนอร์ติดต่อ: phutthiphong.n@kkumail.com</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body></html>
